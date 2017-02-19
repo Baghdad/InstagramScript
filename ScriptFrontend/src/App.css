@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Login {
+	position:absolute;
+    right:10px;
+}
+
+.Password {
+	position:absolute;
+	right:10px;
+	top:50px;
+}
+
+.LoginButton {
+	position:absolute;
+	right:10px;
+	top:80px;
+}
+
+.SearchQuery {
+	position:relative;
+	top:80px;
+}
+
+.FollowButton {
+	position:relative;
+	top:100px;
+}
+
+.ErrorMessage {
+	position: absolute;
+	right:10px;
+	top:100px;
+	color: red
+}
+
+.DoneMsg {
+	position:relative;
+	bottom:10px;
+	color: green
+}
+
+li {
+	list-style: none
+}
