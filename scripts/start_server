@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/ubuntu/PrivateAPI
+pm2 start server.js --name private-api
