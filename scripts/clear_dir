@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /home/ubuntu/PrivateAPI
+rm /home/ubuntu/PrivateAPI/*
+mkdir /home/ubuntu/PrivateAPI/cookies
