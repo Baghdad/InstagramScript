@@ -14,6 +14,10 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.get('/ping', (req, res) => {
+  res.send(req.body);
+});
+
 app.post('/login', function (req, res) {
     login = req.body.login;
     password = req.body.password;
