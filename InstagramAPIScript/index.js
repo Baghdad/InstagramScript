@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/ping', (req, res) => {
+  console.log('ping');
   res.send(req.body);
 });
 
