@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir -p /home/ubuntu/PrivateAPI
-mkdir -p /home/ubuntu/PrivateAPI/cookies
-find /home/ubuntu/PrivateAPI -type f -maxdepth 1 -exec rm -iv {} \;
+sudo rm -rf /home/ubuntu/PrivateAPI/*
+mkdir /home/ubuntu/PrivateAPI/cookies
+mkdir /home/ubuntu/PrivateAPI/instagram-private-api

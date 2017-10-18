@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /InstagramAPIScript/
     destination: /home/ubuntu/PrivateAPI/
+  - source: /instagram-private-api/
+    destination: /home/ubuntu/PrivateAPI/instagram-private-api/
 hooks:
   ApplicationStop:
     - location: scripts/stop_server
