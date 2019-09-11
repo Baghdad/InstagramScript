@@ -1,0 +1,47 @@
+{
+  "name": "InstagramAPIScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "instagram-private-api": "^1.28.0",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier",
+      "prettier/react"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ]
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 8
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    }
+  }
+}

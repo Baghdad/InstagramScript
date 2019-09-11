@@ -1,3 +1,0 @@
-source /home/ubuntu/.profile
-cd /home/ubuntu/PrivateAPI
-npm install

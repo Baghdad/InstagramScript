@@ -1,4 +1,0 @@
-#!/bin/bash
-mkdir -p /home/ubuntu/PrivateAPI
-mkdir -p /home/ubuntu/PrivateAPI/cookies
-find /home/ubuntu/PrivateAPI -type f -maxdepth 1 -exec rm -iv {} \;
